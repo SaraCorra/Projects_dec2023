@@ -37,6 +37,19 @@ The entire project utilized PyTorch for implementation.
 
 Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1gkVih9wGMpYsDLXR4Eo_EJbN-wmlYs9I#scrollTo=J-H6rGn2smMV).
 
+## Digit recognition 
+
+This exercise serves as a demonstration of the optimization process effectiveness using digit information from the well-known [MNIST dataset]( https://www.kaggle.com/datasets/hojjatk/mnist-dataset). It is a database of handwritten digits, widely employed for testing new machine learning algorithms. The primary objective here is to accurately classify the ten digits into their respective classes.
+
+The model architecture includes two inner layers, both employing the hyperbolic tangent activation function. In the output layer, the softmax activation function facilitates classification based on the highest probability. Given the multi-classification nature of the problem, cross-entropy loss is employed.
+
+The optimization technique involves the mini-batch stochastic gradient method with Adam diagonal scaling, implemented in a Python function. The model's weights minimizing the loss function are used for testing the dataset, resulting in a final accuracy of 95.85%.
+
+Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1TK-7WaA8z2IcNJuiF0ClE3FvFsqM4hsx#scrollTo=14fa7869).
+
+
+
+
 
 
 
