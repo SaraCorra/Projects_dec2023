@@ -18,8 +18,28 @@ The project compared Feedforward neural network, LSTM, BiLSTM, and fine-tuning t
 
 For robustness, we used k-fold cross-validation, partitioning the dataset into k subsets for multiple model training iterations. This combats data limitations and enhances model reliability. The BERT model, with bidirectional attention and contextual embeddings, demonstrated superior efficacy in Named Entity Recognition, showcasing higher precision, recall, and F1-score.
 
-
 Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1wG27yed191Gi_00GlLZFBIJHPQFCcSWm#scrollTo=L7tplwzLPWLH&uniqifier=1).
+
+## Image captioning 
+
+The project, conducted in collaboration with colleague Shaboian Goar, aims to develop a deep neural network for scientific figure captioning. We utilized the [SciCap dataset](https://drive.google.com/drive/folders/1gfnSxuG67eDzjFbwxVxNtAqoqxU9ch2r?usp=sharing), focusing on articles in Computer Sciences (cs) and Machine Learning (stat.ML) from 2010-2020 on [arXiv](https://arxiv.org/). 
+
+Below, few examples from the training dataset are displayed:
+
+<img src="Image%20Captioning/images/image_captions.png" alt="captions_example" width="65%">
+
+Managing the large dataset prompted the use of subfolders to ease CUDA memory burden during training. The baseline model used was CNN + LSTM architecture. This allows to extract the features from the images using the convolutional network, which are then used in the LSTM decoder for word generation.
+Since the dataset provides both visual and text data, it was possible to leverage both sources of data to build a comprehensive model.
+
+The model architecture consists of two primary components: the encoder and the decoder. In the encoder, a comparison between ResNet and GoogLeNet is conducted, followed by a Rectified Linear Unit (ReLU) activation function and dropout for regularization. Moving to the decoder, word embeddings are employed to create vector representations for each word, followed by a dropout layer. Long Short-Term Memory (LSTM) units are utilized to generate words, and the process concludes with a final linear layer for classification.
+
+The entire project utilized PyTorch for implementation.
+
+Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1gkVih9wGMpYsDLXR4Eo_EJbN-wmlYs9I#scrollTo=J-H6rGn2smMV).
+
+
+
+
 
 
 
