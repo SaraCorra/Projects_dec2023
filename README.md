@@ -1,3 +1,4 @@
 # Projects_dec2023
 
-![Alt Text](Named Entity Recognition/images/ner.jpeg)
+![Alt Text](Named%20Entity%20Recognition/images/ner.jpeg)
+
