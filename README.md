@@ -2,9 +2,9 @@
 
 This GitHub repository is designed to showcase three distinct projects:
 
-1. [Digit recognition](./Digit%20Recognition/)
+1. [Named Entity Recognition](./Named%20Entity%20Recognition/)
 2. [Image captioning](./Image%20Captioning/)
-3. [Named Entity Recognition](./Named%20Entity%20Recognition/)
+3. [Digit recognition](./Digit%20Recognition/)
 
 ## Named Entity Recognition 
 
