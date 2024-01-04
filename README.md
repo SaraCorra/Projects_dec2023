@@ -8,7 +8,7 @@ This GitHub repository is designed to showcase three distinct projects:
 
 ## Named Entity Recognition 
 
-This project, undertaken by a team of three—Bottino Manuel, Poetto Patrick, and Shaboian Goar, alongside myself—utilized the [GUM dataset](https://github.com/nluninja/nlp_datasets/tree/main/GUM). GUM, Georgetown University Multilayer corpus, offers annotated texts focusing on contemporary English. It employs the IOB2 format for named entity recognition, where words within and outside chunks are tagged with B, I, and O tags.
+This project, undertaken by a team of three - Bottino Manuel, Poetto Patrick, and Shaboian Goar, alongside myself - utilized the [GUM dataset](https://github.com/nluninja/nlp_datasets/tree/main/GUM). GUM, Georgetown University Multilayer corpus, offers annotated texts focusing on contemporary English. It employs the IOB2 format for named entity recognition, where words within and outside chunks are tagged with B, I, and O tags.
 
 Here is a snippet from our training dataset:
 
