@@ -35,7 +35,7 @@ The model architecture consists of two primary components: the encoder and the d
 
 The entire project utilized PyTorch for implementation.
 
-Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1gkVih9wGMpYsDLXR4Eo_EJbN-wmlYs9I#scrollTo=J-H6rGn2smMV) and the link for the  [Google drive folder](https://drive.google.com/drive/folders/1gfnSxuG67eDzjFbwxVxNtAqoqxU9ch2r?usp=drive_link) needed to run the Script.
+Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1gkVih9wGMpYsDLXR4Eo_EJbN-wmlYs9I#scrollTo=J-H6rGn2smMV) and the [Google drive folder](https://drive.google.com/drive/folders/1gfnSxuG67eDzjFbwxVxNtAqoqxU9ch2r?usp=drive_link) needed to run the Script.
 
 ## Digit recognition 
 
