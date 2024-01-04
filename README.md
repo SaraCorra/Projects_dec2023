@@ -1,6 +1,6 @@
 # Projects_dec2023
 
-This github repository is made to display three projects:
+This GitHub repository is designed to showcase three distinct projects:
 
 1. [Digit recognition](./Digit%20Recognition/)
 2. [Image captioning](./Image%20Captioning/)
