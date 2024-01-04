@@ -19,5 +19,8 @@ The project compared Feedforward neural network, LSTM, BiLSTM, and fine-tuning t
 For robustness, we used k-fold cross-validation, partitioning the dataset into k subsets for multiple model training iterations. This combats data limitations and enhances model reliability. The BERT model, with bidirectional attention and contextual embeddings, demonstrated superior efficacy in Named Entity Recognition, showcasing higher precision, recall, and F1-score.
 
 
+Here's the direct link to access the [Colab Notebook](https://colab.research.google.com/drive/1wG27yed191Gi_00GlLZFBIJHPQFCcSWm#scrollTo=L7tplwzLPWLH&uniqifier=1).
+
+
 
 
